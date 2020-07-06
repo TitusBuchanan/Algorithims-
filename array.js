@@ -13,6 +13,11 @@ function diffArrayBasic(array1, array2) {
       // 4. If a second array doesn't have element from a first
       if (second.indexOf(element) === -1) {
         // 5. Add unique element to the new array
+
+
+
+
+        
         newArray.push(element);
       }
     }
