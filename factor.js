@@ -5,4 +5,4 @@ function factorialize(num) {
     return num * factorialize(num - 1);
   }
   
-  factorialize(5);
+  factorialize(6,7);
