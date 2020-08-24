@@ -26,16 +26,15 @@ function readLine() {
 
 // Complete the designerPdfViewer function below.
 function designerPdfViewer(h, word) {
-    
-   
+
     var alphabet = 'abcdefghijklmnopqrstuvwxyz';
     var word = 'zaba';
-    
 
     let letterHeight = []
-    
 
-    for ( let i = 0;  i < word.length; i++) {
+
+
+    for (let i = 0; i < word.length; i++) {
         letterHeight.push(h[alphabet.indexOf(word[i])])
     }
 
@@ -45,7 +44,7 @@ function designerPdfViewer(h, word) {
 
     return tallest * word.length
 
-    
+
 }
 
 
