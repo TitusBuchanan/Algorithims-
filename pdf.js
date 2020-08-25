@@ -28,7 +28,7 @@ function readLine() {
 function designerPdfViewer(h, word) {
 
     var alphabet = 'abcdefghijklmnopqrstuvwxyz';
-    var word = 'zaba';
+
 
     let letterHeight = []
 
